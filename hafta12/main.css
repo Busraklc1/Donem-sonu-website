@@ -1,0 +1,11 @@
+.container{
+   display:inline-grid;
+   grid-template-columns: repeat(3, 100px);
+   grid-template-rows: repeat(3, 50px);
+   border: 5px solid blue;
+}
+.grid-item{
+    border: 3px solid black;
+    font-size: xx-large;
+    text-align: center;
+}
